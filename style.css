@@ -10,14 +10,14 @@ header {
     height: 150px;
     background-color: #813f04;
     text-align: center;
-    outline-color: black;
+    outline-color: white;
     outline-style: solid;
 }
 
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: #c4c4c5;
+    color: white;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
@@ -30,7 +30,7 @@ h2 {
     margin: 0px;
     font-size: 32px;
     text-align: center;
-    outline-color: black;
+    outline-color: white;
     outline-style: solid;
 }
 
@@ -125,7 +125,7 @@ footer p {
     text-align: center;
     padding: 30px;
     margin: 0;
-    outline-color: black;
+    outline-color: white;
     outline-style: solid;
 }
 
@@ -138,7 +138,7 @@ footer p {
 /* images on the page*/
 
 img {
-    width: 75%;
+    width: 50%;
     border-radius: 10px;
     border: 1px solid #c5c0b8;
     position: static;
