@@ -1,35 +1,47 @@
+/*structure of the page*/
+
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: blue;
+    background-color: rgb(18, 0, 122);
 }
 
 header {
-    height: 100px;
+    height: 150px;
     background-color: #813f04;
     text-align: center;
+    outline-color: black;
+    outline-style: solid;
 }
 
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 120px;
-    color: #0f00e781;
+    font-size: 50px;
+    color: #c4c4c5;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
     padding: 20px;
 }
 
-header h2 {
+h2 {
     font-family: 'Montserrat', serif;
     color: #e3e1dc;
     margin: 0px;
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
+    outline-color: black;
+    outline-style: solid;
 }
 
 footer {
+    height: 40px;
     background-color: #813f04;
+}
+
+article {
+    padding: 0 25%;
+    margin: 80px 0;
 }
 
 section {
@@ -66,6 +78,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
     margin-bottom: 0;
+    font-size: larger;
 }
 
 li {
@@ -73,6 +86,8 @@ li {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5em;
     margin-bottom: 0;
+    font-size: larger;
+    ;
 }
 
 a {
@@ -110,21 +125,21 @@ footer p {
     text-align: center;
     padding: 30px;
     margin: 0;
-}
-
-img {
-    width: 65%;
-    border-radius: 10px;
-    border: 1px solid #c5c0b8;
-}
-
-iframe {
-    width: 75%;
-    border-radius: 10px;
-    border: 1px solid #c5c0b8;
+    outline-color: black;
+    outline-style: solid;
 }
 
 .border-top {
     padding-top: 80px;
     border-top: 2px solid #031ba08a;
+}
+
+
+/* images on the page*/
+
+img {
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid #c5c0b8;
+    position: static;
 }
