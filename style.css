@@ -14,6 +14,9 @@ header {
     outline-style: solid;
 }
 
+
+/* Name and Software Engineering*/
+
 .logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -26,7 +29,7 @@ header {
 
 h2 {
     font-family: 'Montserrat', serif;
-    color: #e3e1dc;
+    color: white;
     margin: 0px;
     font-size: 32px;
     text-align: center;
@@ -55,14 +58,6 @@ h1 {
     color: #ffffff;
     text-align: center;
     font-weight: 500;
-}
-
-h2 {
-    font-family: 'Montserrat Alternates', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 500;
-    font-size: 26px;
 }
 
 h3 {
@@ -96,11 +91,11 @@ a {
 }
 
 a:link {
-    color: #38786a;
+    color: #00f8c2;
 }
 
 a:visited {
-    color: #38786a;
+    color: #be1e09;
 }
 
 a:hover {
@@ -108,7 +103,7 @@ a:hover {
 }
 
 a:active {
-    color: #403933;
+    color: #f7f4f2;
 }
 
 a:hover {
